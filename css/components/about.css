@@ -1,0 +1,43 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+    background-color: #000;
+    
+}
+
+.about .about_left{
+    max-width: 40rem;
+    flex: 1;
+}
+.about .about_left p{
+    margin:  1rem e 2rem;
+
+}
+
+.about .about_left ul{
+    margin-left: 1rem;
+    margin-right:1rem ;
+    margin: -1%;
+    
+}
+
+.about .about_left li{
+    display:inline-block;
+    padding: 1rem;
+    
+}
+
+.about .about_right{
+    flex: 1;
+    max-width: 66rem;
+}
+.about  h2{
+    color: #FFC000;
+    font-family: 'ITC Benguiat Std', sans-serif;
+}
+.about h3{
+    color:#FFC000;
+    font-family: 'ITC Benguiat Std', sans-serif;
+}

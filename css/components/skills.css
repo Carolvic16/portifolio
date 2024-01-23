@@ -1,0 +1,80 @@
+.skills{
+    background-color: #000;
+    scroll-margin-top: 15rem;
+    
+}
+
+.skills .skills_content{
+    padding:6rem 4rem ;
+    
+
+}
+.skills .skills_content h1{
+    padding:6rem 4rem ;
+    text-align: center;
+    color:#FFC000;
+    font-family: 'Merriweather', serif;
+
+}
+.skills .skills_content h2{
+    color:#FFC000;
+    font-family: 'ITC Benguiat Std', sans-serif;
+
+}
+.skills .skills_content .descricao{
+    max-width: 56rem;
+    margin: 0auto 6rem;
+    color: #fff;
+    
+}
+.skills .skills_content ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    gap: 2rem;
+    
+}
+.skills .skills_content ul li .conteuto {
+    background-color: antiquewhite;
+    padding: 2rem;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 4rem 1rem rgba(255,255,0.1);
+}
+
+.skills .skills_content ul li h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+    color: #FFC000;
+    font-family: 'ITC Benguiat Std', sans-serif;
+}
+
+
+
+
+
+.skills .soft{
+    background-color: #000;
+    scroll-margin-top: 15rem;
+    
+}
+
+.skills .skills_content .soft{
+    padding:6rem 4rem ;
+    
+
+}
+
+
+
+.skills .soft h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+    color: #FFC000;
+    font-family: 'ITC Benguiat Std', sans-serif;
+}
+

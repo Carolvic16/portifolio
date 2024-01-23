@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100% ;
+    background-color:#000;
+
+}
+
+.navbar .navbar_content{
+    padding: 3rem 4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar .navbar_content .navbar_links li{
+    display: inline-block;
+}
+
+.navbar .navbar_content .navbar_links li:not(:last-of-type){
+    margin-right: 5rem;
+}
+.navbar .navbar_content .navbar_links a:hover{
+    color: #FFC000;
+}
+.navbar .navbar_content .navbar_links {
+    color: #fff;
+    
+    
+}
+.navbar {
+    color: #fff;
+
+}
+.navbar .navbar_content img{
+    width: 20%;
+    height: auto;
+    margin-top: -15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
