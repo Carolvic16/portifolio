@@ -1,1 +1,1 @@
-Esse é o meu primeiro portifolio, desenvolvido em JavaScript e usano as linguagens de marcação HTML e cascata CSS. Assim, sendo meu portifolio de entrada, onde apresento meus projetos inicias na programacao, com interesse em Front End e desenvolvimento web. 
+Esse é o meu primeiro portifolio, desenvolvido em JavaScript e usando as linguagens de marcação HTML e cascata CSS. Assim, sendo meu portifolio de entrada, onde apresento meus projetos inicias na programacao, com interesse em Front End e desenvolvimento web. 
