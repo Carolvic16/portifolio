@@ -1,7 +1,9 @@
 footer {
     background-color: #212121;
 }
-
+footer h2{
+    color: #ffd700;
+}
 footer .footer__content {
     text-align: center;
     padding: 6rem 2rem 1rem;
