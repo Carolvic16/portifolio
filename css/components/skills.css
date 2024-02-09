@@ -1,5 +1,5 @@
 .skills{
-    background-color: #212121;
+    background-color: #493737;
 
     scroll-margin-top: 15rem;
     
@@ -25,7 +25,7 @@
 .skills .skills_content .descricao{
     max-width: 56rem;
     margin: 0auto 6rem;
-    color: ##212121;
+    color:#fff;
     
 }
 .skills .skills_content ul{
@@ -58,7 +58,7 @@
 
 
 .skills .soft{
-    background-color: #000;
+    background-color:#493737;
     scroll-margin-top: 15rem;
     
 }
