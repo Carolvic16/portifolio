@@ -1,0 +1,37 @@
+.projetos {
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+
+.projetos .projects_content {
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.projetos ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projetos ul li .projects_content {
+    flex-direction: row-reverse;
+}
+
+.projetos ul li:not(:last-of-type) {
+    margin-bottom: 12rem;
+}
+
+.projetos .projects_content .secondary-title h3 {
+    color: #FFC000;
+}
+.projetos p{
+    color: #FFC000;
+}
+
+.projetos .image img {
+    max-width: 100%;
+    height: auto;
+}
