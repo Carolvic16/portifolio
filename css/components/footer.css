@@ -25,8 +25,8 @@ footer .footer__copyright {
     font-size: 1.4rem;
 }
 
-    h2 {
-   
-    font-family: 'ITC Benguiat Std', sans-serif;
-    color:  #FFC000;
+
+footer .footer__content h2 {
+    color:#FFC000;
+    font-family: 'Merriweather', serif;
 }

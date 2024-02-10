@@ -24,9 +24,7 @@
     margin-bottom: 12rem;
 }
 
-.projetos .projects_content .secondary-title h3 {
-    color: #FFC000;
-}
+
 .projetos p{
     color: #FFC000;
 }
@@ -34,4 +32,9 @@
 .projetos .image img {
     max-width: 100%;
     height: auto;
+}
+
+.projetos .projects_content h2 {
+    color:  #FFC000;
+    font-family: 'ITC Benguiat Std', sans-serif;
 }

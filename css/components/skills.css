@@ -1,5 +1,5 @@
 .skills{
-    background-color: #212121;
+  
 
     scroll-margin-top: 15rem;
     
@@ -53,12 +53,7 @@
     font-family: 'ITC Benguiat Std', sans-serif;
 }
 
-
-
-
-
 .skills .soft{
-    background-color:#212121;
     scroll-margin-top: 15rem;
     
 }
@@ -68,8 +63,6 @@
     
 
 }
-
-
 
 .skills .soft h3{
     font-size: 1.6rem;
