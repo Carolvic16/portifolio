@@ -30,3 +30,13 @@ footer .footer__content h2 {
     color:#FFC000;
     font-family: 'Merriweather', serif;
 }
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column; /* Altera a direção do flexbox para empilhamento vertical */
+    }
+
+    .about .about_left,
+    .about .about_right {
+        max-width: 100%; /* Define a largura máxima para ocupar toda a largura da tela */
+    }
+}
