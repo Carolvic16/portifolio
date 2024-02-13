@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <title>Victoria Portfólio</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/extends.css">
     <!--Fontes-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.cdnfonts.com/css/itc-benguiat-std" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
     <style>
         @import url('https://fonts.cdnfonts.com/css/itc-benguiat-std');
     </style>
@@ -116,37 +121,27 @@
             <p>Aqui estão alguns dos meus projetos desenvolvidos ao longo da minha trajetória na área de tecnologia,<br> 
                 onde sempre busco aprofundar meus conhecimentos teóricos e práticos.<br></p>
         </div>
-        <ul>
+        <ul class="slider">
             <li>
-                <div class="image">
-                    <img src="caminho/para/imagem1.jpg" alt="Projeto 1">
-                </div>
-                <div class="projects_info">
-                    <h3 class="tertiary-title">Projeto sendo desenvolvido</h3>
-                    <p>Estou desenvolvendo projetos</p>
-                    <a href="#">Leia mais &rarr;</a>
-                </div>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="#">
             </li>
             <li>
-                <div class="image">
-                    <img src="caminho/para/imagem2.jpg" alt="Projeto 2">
-                </div>
-                <div class="projects_info">
-                    <h3 class="tertiary-title">Projeto sendo desenvolvido</h3>
-                    <p>Estou desenvolvendo projetos</p>
-                    <a href="#">Leia mais &rarr;</a>
-                </div>
+                <input type="radio" id="slide2" name="slide" checked>
+                <label for="slide2"></label>
+                <img src="#">
             </li>
             <li>
-                <div class="image">
-                    <img src="caminho/para/imagem3.jpg" alt="Projeto 3">
-                </div>
-                <div class="projects_info">
-                    <h3 class="tertiary-title">Projeto sendo desenvolvido</h3>
-                    <p>Estou desenvolvendo projetos</p>
-                    <a href="#">Leia mais &rarr;</a>
-                </div>
+                <input type="radio" id="slide3" name="slide" checked>
+                <label for="slide3"></label>
+                <img src="#">
             </li>
+            <div class="slider-controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
         </ul>
     </section>
     <!--Footer-->
