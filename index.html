@@ -1,180 +1,352 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Victoria Portfólio</title>
-    <!--CSS-->
-    <link rel="stylesheet" href="css/extends.css">
-    <!--Fontes-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.cdnfonts.com/css/itc-benguiat-std" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-    <style>
-        @import url('https://fonts.cdnfonts.com/css/itc-benguiat-std');
-    </style>
-
-    
+    <title>Victória Carolina — Portfólio</title>
+    <link rel="icon" type="image/png" href="assets/mymelody.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    <!--navbar-->
-    <nav class="navbar">
-        <div class="navbar_content max-width mb-0">
-            <a href="/"> 
-                <img src="assets/Victória.png" alt="logo">
+
+    <!-- ── Nav ───────────────────────────────────── -->
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+
+            <a href="/" class="nav__logo" aria-label="Início">
+                <span class="nav__logo-dot"></span>
+              Victória Ferreia
             </a>
-            <ul class="navbar_links">
-                <li><a href="#header">Inicio</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#projetos">Projeto</a></li>
-                <li><a href="#footer">Contato</a></li>
+
+            <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav__links" id="navLinks">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
+
+            <a href="mailto:victoriacarolina.f.silva@gmail.com" class="nav__cta">Vamos conversar</a>
         </div>
     </nav>
-    <!--Inicio-->
-    <header id="header" class="max-width">
-        <div class="header_left">
-            <h1>OLÁ! SOU <br>VICTÓRIA CAROLINA</h1>
-            <p> Sou estudante de Ciência da Computação, <br>com interesse em front-end e banco de dados. <br>Aqui é onde compartilharei meus projetos :) </p>
-            <a href="https://github.com/Carolvic16" class="btn ">Saiba Mais </a>
-        </div>
-        <div class="header_right">
-            <div class="header_image">
-                <img src="assets/Design_sem_nome-removebg-preview (1).png" alt="Victória Carolina" class="Victoria"> <!--ARRUMAR AS IMAGENS PQ NÃO TA INDO-->
+
+    <!-- ── Hero ──────────────────────────────────── -->
+    <header id="header" class="hero">
+        <div class="container">
+            <div class="hero__inner">
+
+                <div class="hero__left">
+
+
+                    <h1 class="hero__title">
+                        Olá, sou<br>
+                        <em>Victória</em><br>
+                        Ferreira.
+                    </h1>
+
+                    <p class="hero__desc">
+                        Estudante do 7º semestre de Ciência da Computação no IFSP. Foco em Ciência de Dados,
+                        Inteligência Artificial e Cloud Computing.
+                    </p>
+
+                    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                        <a href="https://github.com/Carolvic16" target="_blank" rel="noopener"
+                            class="btn btn-fill">GitHub →</a>
+                        <a href="#sobre" class="btn btn-outline">Sobre mim</a>
+                    </div>
+
+                    <div class="hero__scroll">Rolar para ver mais</div>
+                </div>
+
+                <div class="hero__photo-col">
+
+                    <img src="assets/eu.jpeg" alt="Foto de Victória Carolina" class="hero__photo">
+                </div>
+
             </div>
         </div>
     </header>
-    <!--Sobre-->
-    <section id="about" class="about max-width">
-        <div class="about_left">
-            <h2 class="secondary-title">ALÉM DO CODIGO, QUEM SOU EU:</h2>
-            <p>
-                Que tal se conectar comigo nas redes socias e saber mais sobre mim e meus projetos?
-            </p>
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com/carolvic16/"><img src="assets/iconmonstr-instagram-11.png" alt="instagram Icon"></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/victória-carolina-silva-638610284/"><img src="assets/iconmonstr-linkedin-3.png" alt="linkedin Icon"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/Carolvic16"><img src="assets/iconmonstr-github-1 (1).png" alt="GitHub icon"></a>
-                </li>
-            </ul>
+
+    <!-- ── Marquee ────────────────────────────────── -->
+    <div class="marquee-wrap" aria-hidden="true">
+        <div class="marquee-track">
+            <div class="marquee-item"><span>✦</span> Python</div>
+            <div class="marquee-item"><span>✦</span> Machine Learning</div>
+            <div class="marquee-item"><span>✦</span> Ciência de Dados</div>
+            <div class="marquee-item"><span>✦</span> SQL</div>
+            <div class="marquee-item"><span>✦</span> Power BI</div>
+            <div class="marquee-item"><span>✦</span> Cloud Computing</div>
+            <div class="marquee-item"><span>✦</span> Visão Computacional</div>
+            <div class="marquee-item"><span>✦</span> Java</div>
+            <div class="marquee-item"><span>✦</span> HTML · CSS · JS</div>
+            <div class="marquee-item"><span>✦</span> Inteligência Artificial</div>
+            <div class="marquee-item"><span>✦</span> Python</div>
+            <div class="marquee-item"><span>✦</span> Machine Learning</div>
+            <div class="marquee-item"><span>✦</span> Ciência de Dados</div>
+            <div class="marquee-item"><span>✦</span> SQL</div>
+            <div class="marquee-item"><span>✦</span> Power BI</div>
+            <div class="marquee-item"><span>✦</span> Cloud Computing</div>
+            <div class="marquee-item"><span>✦</span> Visão Computacional</div>
+            <div class="marquee-item"><span>✦</span> Java</div>
+            <div class="marquee-item"><span>✦</span> HTML · CSS · JS</div>
+            <div class="marquee-item"><span>✦</span> Inteligência Artificial</div>
         </div>
-        <div class="about_right">
-            <h3 class="tertiary-title mb-m">ESTUDANTE DE CIÊNCIA DA COMPUTÇÃO NO IFSP-SBV, <br>
-                APAIXONDA POR TECNOLOGIA</h3>
-            <p>
-                Olá, sou Victória, uma estudante de Ciência da Computação,<br>
-                apaixonada por tecnologia e desafios. Estou sempre disposta a enfrentar coisas novas, <br>
-                testando meus conhecimentos.✨
-            </p>
-        </div>
-    </section>
-    <!--Habilidades-->
-    <section id="skills" class="skills">
-        <div class="skills_content max-width">
-            <h1>HABILIDADES</h1>
-            <h2>TECNOLOGIA</h2>
-            <p class="descricao">Na linguagem C de programação foi onde iniciei minha trajetória, desenvolvendo lógica de programação.<br>     
-                Posteriormente, dei início ao estudo em Java, proporcionando-me experiência em Programação Orientada a Objetos (POO).</p>
-            <ul>
-                <li class="habilidades">
-                    <div class="conteudo">
-                        <img src="assets/icons8-c.svg" alt="icon c">
-                        <img src="assets/icons8-java.svg" alt="icon java">
+    </div>
+
+    <!-- ── Sobre ──────────────────────────────────── -->
+    <section id="sobre" class="section section--alt">
+        <div class="container">
+            <div class="about__grid">
+
+                <div class="reveal">
+                    <p class="section__eyebrow">Sobre mim</p>
+                    <h2 class="section__title">Além do <em>código</em></h2>
+                    <div class="divider"></div>
+                    <p class="about__body">
+                        Prazer, sou a Vic! Sou estudante de Ciência da Computação no IFSP e atualmente estou no 7º
+                        semestre da graduação. Durante minha trajetória acadêmica, tive contato com diversas áreas da
+                        tecnologia, o que me permitiu descobrir novos interesses e desenvolver diferentes habilidades.
+                        Entre todas elas, a área de Dados foi a que mais me conquistou, por unir análise, criatividade e
+                        resolução de problemas.
+                    </p>
+
+                    <p class="about__body">
+                        Hoje, busco evoluir constantemente como profissional, aprofundando meus conhecimentos em Ciência
+                        de Dados, Inteligência Artificial e Cloud Computing. Estou sempre aberta a novos desafios,
+                        oportunidades de aprendizado e projetos que me permitam gerar impacto por meio da tecnologia.
+                    </p>
+                    <div class="social-row">
+
+                        <a href="https://www.linkedin.com/in/vict%C3%B3ria-ferreira-638610284/" target="_blank"
+                            rel="noopener" aria-label="LinkedIn">
+                            <img src="assets/iconmonstr-linkedin-3.png" alt=""> LinkedIn
+                        </a>
+                        <a href="https://github.com/Carolvic16" target="_blank" rel="noopener" aria-label="GitHub">
+                            <img src="assets/iconmonstr-github-1 (1).png" alt=""> GitHub
+                        </a>
                     </div>
-                    <h3>ESTOU ME DEDICANDO AOS ESTUDOS DE...</h3>
-                    <p>Estou iniciando os estudos em front-end, desenvolvimento web.<br>
-                    Tenho me dedicado à aplicação e desenvolvimento de projetos utilizando JavaScript, HTML e CSS. <br>
-                    Um dos projetos que elaborei é este portfolio, onde pude aplicar e testar meus conhecimentos.</p>
-                        <img src="assets/icons8-javascript.svg" alt="iconjavascript">
-                        <img src="assets/icons8-html.svg" alt="icon html">
-                        <img src="assets/icons8-css.svg" alt="icon css">
-                </li>
-                    <li class="soft">
-                        <h2>Soft Skills</h2>
-                        <h3>Flexiblidade</h3>
-                        <p>Ao longo da minha trajetoria, tenho desenvolvido a capacidade de me adaptar a diferentes situações, abraçando desafios com uma mentalidade aberta. <br>
-                        Isso não apenas me permite lidar eficientemente com imprevistos, mas também me coloca em uma posição vantajosa para aprender e crescer diante das adversidades.</p>
-                        <h3>COLOBORAÇÃO</h3>
-                        <p>Ao longo da minha carreira, busquei ativamente oportunidades para colaborar efetivamente com colegas, reconhecendo que a diversidade de ideias e habilidades enriquece significativamente os resultados.<br>
-                        Valorizo a importância de ouvir as perspectivas dos outros, contribuir de maneira construtiva e criar sinergias que impulsionam o sucesso coletivo</p>
-                    </li>
-            </ul>
-        </div>
-    </section>
-    <!--Projetos-->
-    <section id="projetos" class="projetos max-width">
-        <div class="projects_content"> 
-            <h2 class="secondary-title">Projetos em Destaque</h2>
-            <p>Aqui estão alguns dos meus projetos desenvolvidos ao longo da minha trajetória na área de tecnologia,<br> 
-                onde sempre busco aprofundar meus conhecimentos teóricos e práticos.<br></p>
-        </div>
-        <ul class="slider">
-            <li>
-                <input type="radio" id="slide1" name="slide" checked>
-                <label for="slide1"></label>
-                <img src="#">
-            </li>
-            <li>
-                <input type="radio" id="slide2" name="slide" checked>
-                <label for="slide2"></label>
-                <img src="#">
-            </li>
-            <li>
-                <input type="radio" id="slide3" name="slide" checked>
-                <label for="slide3"></label>
-                <img src="#">
-            </li>
-            <div class="slider-controls">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
+                </div>
+
+                <div class="about__areas reveal" style="transition-delay:0.12s">
+                    <div class="area-item">
+                        <span class="area-num">01</span>
+                        <div>
+                            <p class="area-title">Ciência de Dados & IA</p>
+                            <p class="area-desc">Análise, modelagem e visualização de dados com foco em Machine Learning
+                                e Visão Computacional.</p>
+                            <div class="area-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">ML</span>
+                                <span class="tag">Visão Computacional</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="area-item">
+                        <span class="area-num">02</span>
+                        <div>
+                            <p class="area-title">Dados & Business Intelligence</p>
+                            <p class="area-desc">Consultas e modelagem com SQL, dashboards e relatórios estratégicos com
+                                Power BI.</p>
+                            <div class="area-tags">
+                                <span class="tag">SQL</span>
+                                <span class="tag">Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="area-item">
+                        <span class="area-num">03</span>
+                        <div>
+                            <p class="area-title">Cloud Computing</p>
+                            <p class="area-desc">Plataformas em nuvem para desenvolvimento e implantação de soluções
+                                escaláveis.</p>
+                            <div class="area-tags">
+                                <span class="tag">Cloud</span>
+                                <span class="tag">Infraestrutura</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="area-item">
+                        <span class="area-num">04</span>
+                        <div>
+                            <p class="area-title">Desenvolvimento Web</p>
+                            <p class="area-desc">Interfaces e aplicações web funcionais com HTML, CSS, JavaScript, Java
+                                e C.</p>
+                            <div class="area-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </ul>
-    </section>
-    <!--Footer-->
-   <footer id="footer">
-      <div class="footer__content max-width mb-0">
-        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
-        <p class="mb-m">
-          Ficarei feliz em saber mais sobre seus projetos e como podemos
-          trabalhar juntos para torná-los realidade.
-        </p>
-        <div class="footer__contact mb-m">
-          <span class="mb-m">victoriacarolina.f.silva@gmail.com</span>
-          <span>(19) 98900-6818</span>
         </div>
-        <ul class="mb-l">
-          <li>
-             <a href="https://www.instagram.com/carolvic16/"><img src="assets/iconmonstr-instagram-11.png" alt="instagram Icon"></a>
-          </li>
-          <li>
-             <a href="https://www.linkedin.com/in/victória-carolina-silva-638610284/"><img src="assets/iconmonstr-linkedin-3.png" alt="linkedin Icon"></a>
-          </li>
-          <li>
-             <a href="https://github.com/Carolvic16"><img src="assets/iconmonstr-github-1 (1).png" alt="GitHub icon"></a>
-          </li>
-            
-        </ul>
-        <p class="footer__copyright">
-          © 2024 Victoria Carolina. Todos os direitos reservados.
-        </p>
+    </section>
+
+    <!-- ── Projetos ───────────────────────────────── -->
+    <section id="projetos" class="section">
+  <div class="container">
+    <div class="projects__header reveal">
+      <div>
+        <p class="section__eyebrow">Trajetória profissional</p>
+        <h2 class="section__title">Experiências <em>profissionais</em></h2>
       </div>
+
+      <a href="/assets/Victoria__Ferreira.pdf" download>
+        Baixar CV ↗
+      </a>
+    </div>
+
+    <div class="project-list reveal" style="transition-delay:0.08s">
+
+      <div class="project-item">
+        <span class="project-num">01</span>
+        <div class="project-info">
+          <span class="project-cat">Estágio em Suporte Técnico (N1)</span>
+          <p class="project-name">Simpliss • Ago 2025 – Abr 2026</p>
+          <p class="project-desc">
+            Atuação no suporte técnico nível 1, com análise e correção de XML, além do atendimento e orientação de usuários na plataforma.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <span class="project-num">02</span>
+        <div class="project-info">
+          <span class="project-cat">Iniciação Científica</span>
+          <p class="project-name">IFSP • Ago 2025 – Mai 2026</p>
+          <p class="project-desc">
+            Pesquisa sobre a representatividade feminina na área de Tecnologia da Informação no Brasil, com foco em coleta, organização e análise de dados.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <span class="project-num">03</span>
+        <div class="project-info">
+          <span class="project-cat">Estágio em Manutenção de Computadores</span>
+          <p class="project-name">UNIFAE • Ago 2022 – Ago 2024</p>
+          <p class="project-desc">
+            Atuação em manutenção de computadores, instalação de softwares e suporte básico em infraestrutura de TI.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ── Habilidades ────────────────────────────── -->
+    <section id="habilidades" class="section section--alt">
+        <div class="container">
+            <div class="reveal">
+                <p class="section__eyebrow">O que eu uso</p>
+                <h2 class="section__title">Habilidades & <em>ferramentas</em></h2>
+            </div>
+
+            <div class="skills__grid reveal" style="transition-delay:0.1s">
+                <div class="skill-cell">
+                  
+                    <p class="skill-cell__title">Machine Learning</p>
+                    <p class="skill-cell__desc">Modelos preditivos, classificação, regressão e redes neurais.</p>
+                </div>
+                <div class="skill-cell">
+              
+                    <p class="skill-cell__title">Visão Computacional</p>
+                    <p class="skill-cell__desc">Processamento de imagens e reconhecimento de padrões visuais.</p>
+                </div>
+                <div class="skill-cell">
+                  
+                    <p class="skill-cell__title">Análise de Dados</p>
+                    <p class="skill-cell__desc">Exploração, limpeza, visualização e interpretação de datasets.</p>
+                </div>
+                <div class="skill-cell">
+                 
+                    <p class="skill-cell__title">Cloud Computing</p>
+                    <p class="skill-cell__desc">Plataformas em nuvem para deploy e escalabilidade de projetos.</p>
+                </div>
+                <div class="skill-cell">
+              
+                    <p class="skill-cell__title">SQL & Power BI</p>
+                    <p class="skill-cell__desc">Consultas, modelagem de dados e dashboards interativos.</p>
+                </div>
+                <div class="skill-cell">
+              
+                    <p class="skill-cell__title">Desenvolvimento Web</p>
+                    <p class="skill-cell__desc">HTML, CSS, JavaScript e Java para interfaces funcionais.</p>
+                </div>
+            </div>
+
+            <div class="tech-row reveal" style="transition-delay:0.18s" aria-label="Tecnologias">
+                <span class="tech-pill"><img src="assets/icons8-c.svg" alt="">C</span>
+                <span class="tech-pill"><img src="assets/icons8-java.svg" alt="">Java</span>
+                <span class="tech-pill"><img src="assets/icons8-javascript.svg" alt="">JavaScript</span>
+                <span class="tech-pill"><img src="assets/icons8-html.svg" alt="">HTML</span>
+                <span class="tech-pill"><img src="assets/icons8-css.svg" alt="">CSS</span>
+                <span class="tech-pill"><img src="assets/python.svg" alt="">Python</span>
+                <span class="tech-pill"><img src="assets/sql.svg" alt="">SQL</span>
+                <span class="tech-pill"><img src="assets/powerbi-svgrepo-com.svg" alt="">Power Bi</span>
+                <span class="tech-pill"><img src="assets/cloud-svgrepo-com.svg" alt="">Cloud</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Contato ────────────────────────────────── -->
+    <section id="contato" class="cta-section">
+        <div class="container">
+            <div class="cta__inner reveal">
+                <div>
+                    <p class="section__eyebrow">Contato</p>
+                    <h2 class="cta__title">
+                        Vamos <em>conversar?</em><br>
+                        Ficarei feliz em conhecer<br>seu projeto.
+                    </h2>
+                </div>
+                <div class="cta__links">
+                    <a href="mailto:victoriacarolina.f.silva@gmail.com" class="cta__email">
+                        victoriacarolina.f.silva@gmail.com
+                    </a>
+                    <a href="https://wa.me/5519989006818?text=Ol%C3%A1,%20Vict%C3%B3ria!%20Tudo%20bem?%0AVi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20entrar%20em%20contato%20para%20conversar%20sobre%20uma%20proposta%20de%20projeto.%20Fico%20%C3%A0%20disposi%C3%A7%C3%A3o%20para%20alinharmos%20melhor%20os%20detalhes." class="cta__phone">(19) 98900-6818</a>
+                    <div style="display:flex;gap:0.75rem;margin-top:1rem;">
+                    
+                        <a href="https://github.com/Carolvic16" target="_blank" rel="noopener" class="btn btn-fill"
+                            style="font-size:0.8125rem;padding:0.5rem 1.1rem;">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Footer ────────────────────────────────── -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p class="footer__copy">© 2026 Victória Carolina. Todos os direitos reservados.</p>
+                <div class="footer__social">
+                    <a href="https://api.whatsapp.com/send/?phone=5519989006818&text=Ol%C3%A1%2C+Vict%C3%B3ria%21+Tudo+bem%3F%0AVi+seu+portf%C3%B3lio+e+gostaria+de+entrar+em+contato+para+conversar+sobre+uma+proposta+de+projeto.+Fico+%C3%A0+disposi%C3%A7%C3%A3o+para+alinharmos+melhor+os+detalhes.&type=phone_number&app_absent=0" target="_blank" rel="noopener">Whatsapp</a>
+                    <a href="https://www.linkedin.com/in/vict%C3%B3ria-ferreira-638610284/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://github.com/Carolvic16" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="scripts/index.js"></script>
-     <script src="./assets/js/scroll.js"></script>
-       <script src="scripts/index.js"></script>
+
+    <script src="scripts/main.js"></script>
+
 </body>
+
 </html>
